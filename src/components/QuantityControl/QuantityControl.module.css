@@ -1,0 +1,24 @@
+.btnQuantity {
+  width: 58px;
+  height: 58px;
+  background-color: var(--bread-color);
+  border: 1px solid;
+  border-color: var(--border-color);
+  border-radius: 6px;
+  color: #8b8b8b;
+  font-size: 36px;
+}
+.span {
+  padding: 14px 48px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--border-color);
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--text-color);
+  background-color: var(--bread-color);
+}
+.priceBlock {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,120 @@
+.cart {
+  max-width: 1360px;
+  margin: 40px;
+  color: var(--text-color);
+}
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.cartComponent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+  gap: 32px;
+}
+.order {
+  width: 548px;
+  padding: 24px;
+  background-color: var(--footer-bg);
+  border: none;
+  border-radius: 12px;
+
+  & h2 {
+    font-size: 40px;
+    line-height: 110%;
+    margin-bottom: 24px;
+  }
+  & h3 {
+    font-size: 40px;
+    line-height: 130%;
+    color: #8b8b8b;
+    font-weight: normal;
+  }
+  & h4 {
+    font-size: 64px;
+    line-height: 110%;
+  }
+}
+.totalPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 32px;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputWrapper input {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  padding: 16px 32px;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 130%;
+  color: black;
+  border: 1px solid #8b8b8b;
+}
+
+.inputWrapper input:focus {
+  outline: none;
+}
+.inputWrapper input::placeholder {
+  color: #8b8b8b;
+}
+.error {
+  color: red;
+}
+.submitButton {
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 16px 56px;
+  background-color: #0d50ff;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.submitButton:hover {
+  background-color: black;
+  transition: linear 0.2s;
+}
+
+.clearButton {
+  color: #0d50ff;
+  width: 100%;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 16px 56px;
+  background-color: white;
+  border: 1px solid #0d50ff;
+  border-radius: 6px;
+}
+.clearButton:hover {
+  color: white;
+  background-color: #0d50ff;
+}
+@media (max-width: 1024px) {
+  .cartComponent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 440px) {
+  .order {
+    max-width: 380px;
+  }
+}
+@media (max-width: 380px) {
+  .order {
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,18 @@
+.categoryCard {
+  max-width: 316px;
+  text-align: center;
+  color: var(--text-color);
+}
+.categoryCard:hover {
+  filter: brightness(0.7);
+  transition: linear 0.2s;
+}
+.categoryImage {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.categoryName {
+  font-size: 20px;
+  line-height: 130%;
+}

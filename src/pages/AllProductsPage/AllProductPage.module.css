@@ -1,0 +1,28 @@
+.allProducts {
+  padding: 40px;
+  max-width: 1360px;
+  color: var(--text-color);
+  & h1 {
+    font-size: 64px;
+    line-height: 110%;
+    margin-bottom: 40px;
+  }
+}
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .allProducts h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 440px) {
+  .allProducts h1 {
+    font-size: 36px;
+  }
+}

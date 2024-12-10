@@ -1,0 +1,45 @@
+.promo {
+  max-width: 1440px;
+  max-height: 600px;
+  background: url("../../images/head_discount.png") no-repeat;
+  background-size: 100% auto;
+  padding: 80px 40px 210px 40px;
+  margin: 0 auto;
+}
+
+.promo h1 {
+  color: white;
+  font-size: 96px;
+  line-height: 110%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+  .promo h1 {
+    margin-bottom: 20px;
+    font-size: 64px;
+  }
+}
+@media (max-width: 820px) {
+  .promo {
+    padding: 40px 20px 100px 20px;
+  }
+  .promo h1 {
+    margin-bottom: 15px;
+    font-size: 48px;
+  }
+}
+@media (max-width: 440px) {
+  .promo {
+    padding: 20px 10px 80px 10px;
+  }
+  .promo h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .btnCheckOut {
+    font-size: 14px;
+
+    padding: 8px 25px;
+  }
+}

@@ -1,0 +1,25 @@
+.btnCard {
+  color: white;
+  width: 284px;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 16px 56px;
+  background-color: #0d50ff;
+  border: none;
+  border-radius: 6px;
+}
+.btnCard:hover {
+  background-color: black;
+  transition: linear 0.2s;
+}
+
+.btnCardAdded {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  width: 284px;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 16px 56px;
+  border-radius: 6px;
+}

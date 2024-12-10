@@ -1,0 +1,23 @@
+.btnBaner {
+  font-size: 20px;
+  line-height: 130%;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px 32px;
+  border: none;
+}
+
+.btnBaner:hover {
+  color: white;
+  background-color: black;
+}
+.done {
+  font-size: 20px;
+  line-height: 130%;
+  color: #0d50ff;
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px 32px;
+  border: none;
+}
